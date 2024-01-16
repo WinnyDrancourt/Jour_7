@@ -6,7 +6,7 @@ puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ? (ent
 end
 
 puts "Voici la pyramide :"
-for number in 0..numbers
+for number in 1..numbers
     number.times {print "#"}
         puts
 end
