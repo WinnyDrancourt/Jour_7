@@ -5,3 +5,6 @@ mails = Array.new
     puts "#{newmail}"
     mails << newmail
 end
+puts "Voir ce que comporte l'array mails"
+print mails
+puts
