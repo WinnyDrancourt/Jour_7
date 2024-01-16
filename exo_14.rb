@@ -7,3 +7,7 @@ mails = Array.new
     puts "#{newmail}"    
     end
 end
+
+puts "Voir ce que comporte l'array mails"
+print mails
+puts

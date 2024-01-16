@@ -12,3 +12,6 @@ mails.each do |even|
     puts "#{even}"
     end
 end
+puts "Voir ce que comporte l'array mails"
+print mails
+puts
