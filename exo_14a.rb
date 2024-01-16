@@ -5,6 +5,7 @@ mails = Array.new
     puts "#{newmail}"
     mails << newmail
 end
+
 puts "Mails avec chiffre pair"
 mails.each do |even|
     number = even.scan(/\d+/).first.to_i
